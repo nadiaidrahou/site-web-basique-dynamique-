@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template1 javascript</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" >
+</head>
+<body>
+    <!-- start setting box -->
+
+    <div class="setting-box">
+        <div class="toggle-icon">
+            <i class="fa-solid fa-gear fa-spin"></i>
+        </div>
+        <div class="settings-container">
+            <div class="option-box">
+                <h4>colors</h4>
+                <ul class="list-colors">
+                    <li data-color="#3d2116" class="active"></li>
+                    <li data-color="#f9a2b0"></li>                
+                    <li data-color="#40e0d0"></li>
+                    <li data-color="#e9ab65"></li>
+                    <li data-color="#ba6145"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>random Background</h4>
+                <div class="random-background">
+                <span class="yes active" data-background="yes">yes</span>
+                <span class="no" data-backgound="no">no</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Show Bullets</h4>
+                <div class="bullets-option">
+                <span class="yes active" data-display="show">yes</span>
+                <span class="no" data-display="hide">no</span>
+                </div>
+            </div>
+            <button class="reset-option">Reset Options</button>
+  
+
+    </div> </div>
+    <!-- end setting box -->
+    <!-- start nav bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about-us">
+            <div class="tool-tip">About Us</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tool-tip">Our Work</div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tool-tip">Our Gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tool-tip">Timeline</div>
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="tool-tip">Our Features</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="tool-tip">Testimonials</div>
+        </div>
+        <div class="bullet" data-section=".contact">
+            <div class="tool-tip">Contact Us</div>
+        </div>
+
+    </div>
+    <!-- end nav bullets -->
+
+
+    <!-- start landing page --> 
+    <div class="landing-page">
+        <div class="overlay"></div>  
+        <div class="container">
+        <div class="header">
+            <div class="logo">Nayda</div>
+            <div class="links-container">
+            <ul class="links">
+                <li><a href="#" data-section=".about-us">About Us</a></li>
+                <li><a href="#" data-section=".skills">Our Work</a></li>
+                <li><a href="#" data-section=".gallery">Our Gallery</a></li>
+                <li><a href="#" data-section=".timeline">Timeline</a></li>
+                <li><a href="#" data-section=".features">Our Features</a></li>
+                <li><a href="#" data-section=".testimonials">Testimonials</a></li> 
+            </ul>
+            <button class="toggle-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>         
+        </div></div>
+        <div class="introduction-text">
+            <h1>We Are <span>Creative</span> Agency</h1>
+            <p>Discover a world of timeless elegance and contemporary chic as our fashion collection takes you on a journey of self-expression and individuality.</p>
+        </div>
+    </div></div>
+    <!-- end landing page -->    
+    <!-- start about us -->
+    <div class="about-page">
+<div class="container">
+    <div class="about-us">
+        <div class="info-box">
+            <h2>About Us</h2>
+            <p>At Nadya, we're dedicated to celebrating individual style and empowering fashion enthusiasts worldwide. As a trendsetting force in the industry, we curate and create unique, chic, and sustainable fashion collections that resonate with modern tastes. <br>
+
+            Our passion for fashion extends beyond clothing; it's about inspiring confidence, creativity, and self-expression. We believe in the transformative power of clothing and accessories to uplift, empower, and make a statement.<br>
+                
+            With an eye for detail and a commitment to quality, our design team brings forth captivating designs that blend timeless elegance with contemporary trends. From casual wear to couture pieces, each creation is meticulously crafted to embody sophistication and versatility.<br>
+                
+                We embrace diversity and inclusivity in our designs, catering to diverse tastes and body types. Our mission is to provide fashion-forward individuals with a diverse range of styles that exude confidence and authenticity.</p>
+        </div>
+        <div class="image-box">
+            <img src="imgs/about.jpg" alt="">
+        </div>
+
+    </div>
+
+</div></div>
+
+<!-- end about us -->
+
+<!-- start our skills  --> 
+<div class="skills">
+<div class="container">
+    <h2>Our Work</h2>
+    <div class="skill">
+    <div class="skill-box">
+    <div class="skill-name">Exclusive Fashion Collections</div>
+    <div class="skill-progress"><span data-progress="80%"></span></div>
+    </div>
+    <div class="skill-box">
+    <div class="skill-name">Personal Styling Services</div>
+    <div class="skill-progress"><span data-progress="50%"></span></div>
+    </div>
+    <div class="skill-box">
+    <div class="skill-name">Sustainable Fashion Initiatives</div>
+    <div class="skill-progress"><span data-progress="65%"></span></div>
+    </div>
+    <div class="skill-box">
+    <div class="skill-name">Collaborations and Events</div>
+    <div class="skill-progress"><span data-progress="30%"></span></div>
+    </div></div>
+</div>
+</div>
+
+<div class="gallery">
+<div class="container">
+    <h2>Our Gallery</h2>
+</div>
+    <div class="images-box">
+        <img src="imgs/img/img09.png" alt="Fashion Week">
+        <img src="imgs/img/img02.png" alt="Met Gala">
+        <img src="imgs/img/img03.png" alt="">       
+        <img src="imgs/img/img08.png" alt="">  
+        <img src="imgs/img/img06.png" alt=""> 
+        <img src="imgs/img/img04.png" alt="">  
+        <img src="imgs/img/img01.png" alt="">
+        <img src="imgs/img/img05.png" alt="">   
+        <img src="imgs/img/img07.png" alt="">
+    </div>
+</div>
+
+<!-- end our skills  -->
+
+<!-- start timeline -->
+<div class="timeline">
+    <div class="container">
+        <div class="timeline-content">
+            <div class="year">2023</div>
+            <div class="left">
+                <div class="content">
+                    <H3>Met Gala</H3>
+                    <p>The Met Gala, short for the Metropolitan Museum of Art Costume Institute Gala, is an annual fundraising event in New York City that brings together celebrities, designers, and influencers from various industries.</p>
+                </div>
+            </div>
+            <div class="clearflex"></div>
+            <div class="year">2022</div>
+            <div class="right">
+                <div class="content">
+                    <H3>Fashion Week</H3>
+                    <p>Fashion Week is a series of events held in major cities around the world, such as New York, London, Milan, and Paris, where designers unveil their latest collections to industry professionals, media, and fashion enthusiasts.</p>
+                </div>
+            </div>
+            <div class="clearflex"></div>
+            <div class="right">
+                <div class="content">
+                    <H3>Milan Fashion Week</H3>
+                    <p>Milan Fashion Week is a premier fashion event held in Milan, Italy, renowned for its emphasis on luxury, craftsmanship, and design innovation.</p>
+                </div>
+            </div>
+ <div class="clearflex"></div>
+            <div class="year">2020</div>
+            <div class="left">
+                <div class="content">
+                    <H3>Victoria's Secret Fashion Show</H3>
+                    <p>The Victoria's Secret Fashion Show was an annual event organized by the lingerie brand Victoria's Secret. It featured some of the world's top models walking the runway in elaborate lingerie, often accompanied by musical performances. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end timeline -->
+
+<!-- start features -->
+<div class="features">    
+    <div class="container">
+        <h2>Our Features</h2>
+
+    <div class="feat-boxes">
+    <div class="feat-box">
+        <img src="imgs/feature1.png" alt="">
+        <h4>Unique and Exclusive Designs</h4>
+        <p>Designer fashion often features exclusive and innovative designs created by renowned designers or fashion houses. These designs are typically distinct, original, and may reflect the designer's artistic vision or inspiration.</p>
+    </div>
+    <div class="feat-box">
+        <img src="imgs/feature2.png" alt="">
+        <h4>High-Quality Materials and Craftsmanship</h4>
+        <p>Designer garments are crafted from high-quality materials, showcasing superior craftsmanship and attention to detail. These pieces often use premium fabrics, intricate embellishments, and precision tailoring, resulting in durable and luxurious clothing.</p>
+    </div>
+    <div class="feat-box">
+        <img src="imgs/feature3.png" alt="">
+        <h4>Innovative and Trendsetting Styles</h4>
+        <p>Designers are trendsetters who frequently introduce new styles, silhouettes, and fashion concepts. They push boundaries, experiment with shapes, textures, and colors, setting trends that often trickle down to mainstream fashion.</p>
+    </div>
+    <div class="feat-box">
+        <img src="imgs/feature4.png" alt="">
+        <h4>Limited Production and Exclusivity</h4>
+        <p>Designer fashion is often produced in limited quantities, maintaining its exclusivity and desirability. Limited production runs contribute to the perception of luxury and prestige associated with these pieces.</p>
+    </div>
+    <div class="feat-box">
+        <img src="imgs/feature5.png" alt="">
+        <h4>Branding and Prestige</h4>
+        <p>Designer fashion is linked to established brands or fashion houses known for their heritage, legacy, and reputation. The brand name itself carries a certain prestige, influencing consumer perception and value.</p>
+    </div>
+    <div class="feat-box">
+        <img src="imgs/feature6.png" alt="">
+        <h4>Emphasis on Runway Shows and Couture</h4>
+        <p>Designer fashion is often showcased through elaborate runway shows during Fashion Weeks, highlighting the latest collections and setting the stage for upcoming trends. Some designers also create couture pieces, which are made-to-measure garments crafted with exquisite attention to detail.</p>
+    </div>
+    </div>
+    </div>
+
+</div>
+
+
+<!-- end features -->
+<!-- Start Testimonials -->
+<div class="testimonials">
+    <div class="container">
+    <h2>Testimonials</h2>
+    <div class="ts-box">
+    <p>I absolutely adore the latest collection from Nadya. The attention to detail in their designs is remarkable. Every piece feels like a work of art, and the quality is unmatched.</p>
+    <div class="person-info">
+    <img src="imgs/lora.png" alt="">
+    <h4>Lora</h4>
+    <p>management</p>
+    </div>
+    </div>
+    <div class="ts-box">
+    <p>I've been loyal to Nadya for years now, and for good reason. Their commitment to sustainability while maintaining top-notch fashion is truly commendable. </p>
+    <div class="person-info">
+    <img src="imgs/jame.png" alt="">
+    <h4>Jam</h4>
+    <p>CEO at company</p>
+    </div>
+    </div>
+    <div class="ts-box">
+    <p>I recently purchased a Dress from Nadya, and I couldn't be happier with my choice. The craftsmanship is exceptional and ethical practices , and the design is so versatile.</p>
+    <div class="person-info">
+    <img src="imgs/alexandera.png" alt="">
+    <h4>alexandera</h4>
+    <p>Model</p>
+    </div>
+    </div>
+    
+    </div>
+    </div>
+
+<!-- end Testimonials -->
+<!-- start contact us -->
+<div class="page-contact">
+<div class="container">
+    <div class="contact">
+        <img src="imgs/contact.png" alt="">
+            <div class="contact-us">
+                <h2>Contact Us</h3> 
+                <div class="contact-border">
+                    <form action="">
+                        <div class="left">
+                            <input type="text" placeholder="Your Name" name="username">
+                            <input type="number" placeholder="Your Phone" name="phone">
+                            <input type="email" placeholder="Your Email" name="email">
+                            <input type="text" placeholder="Subject" name="subject">
+                        </div>
+                        <div class="right">
+                            <textarea name="message" placeholder="Your Message"></textarea>
+                            <input type="submit" value="Contact Us">
+                            <div class="icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </div>
+</div>
+</div>
+<div class="footer">
+    created by nadia from Nadya
+</div>
+<!-- end contact us -->
+    <script src="js/master.js"></script>
+</body>
+</html> 
